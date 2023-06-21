@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ec6fb0c-0e33-4986-8b2c-3e9fff913c5f" name="Changes" comment="basic maths">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/linearNumberPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/printName1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/reverseArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/sum.java" afterDir="false" />
+    <list default="true" id="6ec6fb0c-0e33-4986-8b2c-3e9fff913c5f" name="Changes" comment="recursion">
+      <change afterPath="$PROJECT_DIR$/src/Hashing/countingElementsOfArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,20 +32,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.fibonacci">
-    <configuration name="fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.fibonacci" />
+}</component>
+  <component name="RunManager" selected="Application.countingElementsOfArray">
+    <configuration name="countingElementsOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hashing.countingElementsOfArray" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,8 +53,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="linearNumberPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.linearNumberPrint" />
+    <configuration name="fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.fibonacci" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
@@ -113,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.countingElementsOfArray" />
         <item itemvalue="Application.fibonacci" />
         <item itemvalue="Application.palindrome" />
         <item itemvalue="Application.reverseArray" />
         <item itemvalue="Application.sum" />
-        <item itemvalue="Application.linearNumberPrint" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686926408175</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="recursion">
+      <created>1687195259822</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687195259822</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +192,7 @@
     <MESSAGE value="Initial Commit + dynamicArray" />
     <MESSAGE value="basic maths + patterns" />
     <MESSAGE value="basic maths" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic maths" />
+    <MESSAGE value="recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="recursion" />
   </component>
 </project>
