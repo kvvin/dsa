@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ec6fb0c-0e33-4986-8b2c-3e9fff913c5f" name="Changes" comment="sorting">
-      <change afterPath="$PROJECT_DIR$/src/ArraysBasic/arraySortedCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysBasic/largestNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysBasic/secondLargest.java" afterDir="false" />
+    <list default="true" id="6ec6fb0c-0e33-4986-8b2c-3e9fff913c5f" name="Changes" comment="arrays basic">
+      <change afterPath="$PROJECT_DIR$/src/ArraysBasic/unionArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysMedium/dpOnStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysMedium/majorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysMedium/maxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysMedium/sortColor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/bubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/bubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +58,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.secondLargest">
-    <configuration name="bubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.bubbleSort" />
+  <component name="RunManager" selected="Application.dpOnStock">
+    <configuration name="dpOnStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysMedium.dpOnStock" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.*" />
+          <option name="PATTERN" value="ArraysMedium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,38 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="insertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.insertionSort" />
+    <configuration name="maxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysMedium.maxSubArray" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="largestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysBasic.largestNumber" />
-      <module name="dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArraysBasic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.mergeSort" />
-      <module name="dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sorting.*" />
+          <option name="PATTERN" value="ArraysMedium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,13 +98,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sortColor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysMedium.sortColor" />
+      <module name="dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysMedium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="unionArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysBasic.unionArr" />
+      <module name="dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysBasic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dpOnStock" />
+        <item itemvalue="Application.maxSubArray" />
+        <item itemvalue="Application.sortColor" />
+        <item itemvalue="Application.unionArr" />
         <item itemvalue="Application.secondLargest" />
-        <item itemvalue="Application.largestNumber" />
-        <item itemvalue="Application.bubbleSort" />
-        <item itemvalue="Application.mergeSort" />
-        <item itemvalue="Application.insertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +147,11 @@
       <workItem from="1688043732330" duration="3837000" />
       <workItem from="1688298893988" duration="1326000" />
       <workItem from="1688822184021" duration="2380000" />
-      <workItem from="1688912454824" duration="2271000" />
+      <workItem from="1688912454824" duration="2903000" />
+      <workItem from="1689006572759" duration="642000" />
+      <workItem from="1689094677710" duration="1137000" />
+      <workItem from="1689413103264" duration="2213000" />
+      <workItem from="1689516091854" duration="2800000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit + dynamicArray">
       <created>1686292829834</created>
@@ -227,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688050413812</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="arrays basic">
+      <option name="closed" value="true" />
+      <created>1688923132517</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688923132517</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +266,8 @@
     <MESSAGE value="hashing" />
     <MESSAGE value="hashing + hash map" />
     <MESSAGE value="sorting" />
-    <option name="LAST_COMMIT_MESSAGE" value="sorting" />
+    <MESSAGE value="arrays basic" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrays basic" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
