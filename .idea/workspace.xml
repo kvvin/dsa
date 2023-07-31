@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ec6fb0c-0e33-4986-8b2c-3e9fff913c5f" name="Changes" comment="arrays med">
-      <change afterPath="$PROJECT_DIR$/src/ArraysMedium/rotateMatrixBy90.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysMedium/spiralMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysHard/pascalTriangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,9 +54,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.spiralMatrix">
-    <configuration name="arrangeBySign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysMedium.arrangeBySign" />
+  <component name="RunManager" selected="Application.pascalTriangle">
+    <configuration name="longestConsecSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysMedium.longestConsecSeq" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
@@ -69,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="longestConsecSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysMedium.longestConsecSeq" />
+    <configuration name="pascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysHard.pascalTriangle" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraysMedium.*" />
+          <option name="PATTERN" value="ArraysHard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pascalTriangle" />
         <item itemvalue="Application.spiralMatrix" />
         <item itemvalue="Application.rotateMatrixBy90" />
         <item itemvalue="Application.setMatrixZero" />
         <item itemvalue="Application.longestConsecSeq" />
-        <item itemvalue="Application.arrangeBySign" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +151,9 @@
       <workItem from="1689612885382" duration="2129000" />
       <workItem from="1689938766206" duration="997000" />
       <workItem from="1690038099905" duration="5348000" />
-      <workItem from="1690102825183" duration="2730000" />
+      <workItem from="1690102825183" duration="3954000" />
+      <workItem from="1690129442326" duration="35000" />
+      <workItem from="1690807855638" duration="2416000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit + dynamicArray">
       <created>1686292829834</created>
@@ -265,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690046373522</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="arrays med">
+      <option name="closed" value="true" />
+      <created>1690108862241</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1690108862241</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
