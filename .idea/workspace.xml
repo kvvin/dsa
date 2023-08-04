@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ec6fb0c-0e33-4986-8b2c-3e9fff913c5f" name="Changes" comment="arrays hard">
-      <change afterPath="$PROJECT_DIR$/src/ArraysHard/threeSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysHard/threeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysHard/threeSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +154,9 @@
       <workItem from="1690102825183" duration="3954000" />
       <workItem from="1690129442326" duration="35000" />
       <workItem from="1690807855638" duration="7701000" />
-      <workItem from="1690859359092" duration="740000" />
+      <workItem from="1690859359092" duration="1023000" />
+      <workItem from="1690966246972" duration="1189000" />
+      <workItem from="1691123444298" duration="2129000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit + dynamicArray">
       <created>1686292829834</created>
@@ -283,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690811888542</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="arrays hard">
+      <option name="closed" value="true" />
+      <created>1690860129634</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1690860129634</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
