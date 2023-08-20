@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ec6fb0c-0e33-4986-8b2c-3e9fff913c5f" name="Changes" comment="arrays hard">
-      <change afterPath="$PROJECT_DIR$/src/ArraysHard/largestSubArraywZeroSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysHard/mergeIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binarySearch/basic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binarySearch/lowerBound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binarySearch/upperBound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+    <list default="true" id="6ec6fb0c-0e33-4986-8b2c-3e9fff913c5f" name="Changes" comment="Binary Search">
+      <change afterPath="$PROJECT_DIR$/src/binarySearch/countNoOfOccurences.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,9 +54,22 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.firstAndLastPos">
+  <component name="RunManager" selected="Application.countNoOfOccurences">
     <configuration name="basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarySearch.basic" />
+      <module name="dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="countNoOfOccurences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarySearch.countNoOfOccurences" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
@@ -99,13 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="dsa" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="upperBound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarySearch.upperBound" />
       <module name="dsa" />
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.countNoOfOccurences" />
         <item itemvalue="Application.firstAndLastPos" />
         <item itemvalue="Application.upperBound" />
         <item itemvalue="Application.lowerBound" />
         <item itemvalue="Application.basic" />
-        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +163,8 @@
       <workItem from="1691814258765" duration="3189000" />
       <workItem from="1692121190177" duration="5000" />
       <workItem from="1692277394874" duration="3197000" />
-      <workItem from="1692350960827" duration="1210000" />
+      <workItem from="1692350960827" duration="1567000" />
+      <workItem from="1692539905675" duration="1541000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit + dynamicArray">
       <created>1686292829834</created>
@@ -315,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691139575929</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Binary Search">
+      <option name="closed" value="true" />
+      <created>1692353501882</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1692353501882</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +354,8 @@
     <MESSAGE value="arrays basic" />
     <MESSAGE value="arrays med" />
     <MESSAGE value="arrays hard" />
-    <option name="LAST_COMMIT_MESSAGE" value="arrays hard" />
+    <MESSAGE value="Binary Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary Search" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
